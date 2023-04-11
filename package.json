@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SumanPaul031/Node-ts-start/issues"
   },
-  "homepage": "https://github.com/SumanPaul031/Node-ts-start#readme"
+  "homepage": "https://github.com/SumanPaul031/Node-ts-start#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
