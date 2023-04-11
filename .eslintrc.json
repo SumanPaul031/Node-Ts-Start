@@ -1,0 +1,26 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "mocha": true
+  },
+  "extends": ["standard-with-typescript", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "project": ["tsconfig.json"],
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-process-exit": "off"
+  },
+  "overrides": [
+    {
+      "files": ["*.test.ts"],
+      "rules": {
+        "@typecript-eslint/no-unused-expressions": "off"
+      }
+    }
+  ]
+}

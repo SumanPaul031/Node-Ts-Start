@@ -1,0 +1,13 @@
+# Rename this file to .env before running this application
+
+# Environment
+NODE_ENV = development
+
+# Log details
+LOG_LOCATION = 'logs'
+
+# Port
+PORT = 5011
+
+# API Context
+API_CONTEXT = '/api/v1'
